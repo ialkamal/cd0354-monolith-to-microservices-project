@@ -5,12 +5,12 @@ kubectl apply -f env-configmap.yaml
 # Deployments - Double check the Dockerhub image name and version in the deployment files
 kubectl apply -f backend-feed-deployment.yaml
 # Do the same for other three deployment files
-kubectl apply -f backend-users-deployment.yaml
+kubectl apply -f backend-user-deployment.yaml
 kubectl apply -f frontend-deployment.yaml
 kubectl apply -f reverseproxy-deployment.yaml
 # Service
 kubectl apply -f backend-feed-service.yaml
 # Do the same for other three service files
-kubectl apply -f backend-users-service.yaml
+kubectl apply -f backend-user-service.yaml
 kubectl apply -f frontend-service.yaml
 kubectl apply -f reverseproxy-service.yaml
