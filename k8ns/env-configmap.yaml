@@ -1,0 +1,13 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: env-configmap
+data:
+  # Configuration values can be set as key-value properties
+  POSTGRES_HOST: udagram.c43qmpu3tmrt.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_BUCKET: udagram-ismail-dev
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  JWT_SECRET: testing
+  URL: http://a2518bd6cf67742b7b688825c5b1964a-571805247.us-east-2.elb.amazonaws.com
