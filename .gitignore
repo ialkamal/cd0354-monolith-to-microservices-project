@@ -13,8 +13,8 @@ log.txt
 npm-debug.log*
 aws-secret.yaml
 env-secret.yaml
-set_env.sh
 .env
+set_env.sh
 
 .idea/
 .ionic/
